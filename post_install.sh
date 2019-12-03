@@ -19,3 +19,10 @@ then
   rsync -av node_modules/@webcomponents app/javascript/;
   rm -rf node_modules/@webcomponents;
 fi
+
+if [ -d "node_modules/multiselect-combo-box" ];
+then
+  echo "multiselect combo box";
+  rsync -av node_modules/multiselect-combo-box app/javascript/;
+  rm -rf node_modules/multiselect-combo-box;
+fi
