@@ -1,0 +1,20 @@
+{
+  "name": "sample_app",
+  "private": true,
+  "dependencies": {
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "3.5",
+    "@webcomponents/webcomponentsjs": "^2.4.0",
+    "multiselect-combo-box": "^2.2.0",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "scripts": {
+    "postinstall": "./post_install.sh"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}

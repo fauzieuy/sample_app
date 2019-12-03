@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SampleApp</title>
+        <%= csrf_meta_tags %>
+        <%= csp_meta_tag %>
+
+        <%= stylesheet_link_tag 'application', media: 'all' %>
+        <script src="/custom-elements-es5-adapter.js"></script>
+        <%= javascript_pack_tag 'application', defer: true %>
+    </head>
+
+    <body>
+        <%= yield %>
+    </body>
+
+
+    <%= javascript_pack_tag 'application' %>
+</html>
